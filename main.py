@@ -12,7 +12,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def start(message: Message):
-    await message.answer(f"Hello there! {message.from_user.full_name} ")
+    await message.answer('Выберете действие')
 
 
 async def main():
