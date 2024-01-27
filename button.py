@@ -9,4 +9,4 @@ start = ReplyKeyboardMarkup(keyboard=[
         KeyboardButton(text='Выбрать заказ'),
         KeyboardButton(text='Показать выполненные заказы')
     ]
-])
+], resize_keyboard=1)
