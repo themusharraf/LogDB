@@ -7,3 +7,5 @@ conn.commit()
 conn.close()
 def create_table():
     ...
+
+print('fv')
